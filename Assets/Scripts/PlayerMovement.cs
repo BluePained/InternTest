@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -16,22 +17,32 @@ public class PlayerMovement : MonoBehaviour
             playerRb = GetComponent<Rigidbody2D>();
         
         _inputActions = new InputSystem_Actions();
-        _inputActions.Enable();
+        
     }
 
     private void OnEnable()
     {
-        
+        _inputActions.Enable();
     }
 
     private void OnDisable()
     {
-       
+        _inputActions.Disable();
+    }
+
+    private void OnDestroy()
+    {
+        _inputActions.Dispose();
     }
 
     private void Update()
     {
         _inputVector = _inputActions.Player.Move.ReadValue<Vector2>();
+
+        if (Keyboard.current.rKey.wasPressedThisFrame)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     private void FixedUpdate()
