@@ -18,6 +18,9 @@ public class ClockManager : MonoBehaviour
     [Header("Time Meter Value")]
     [SerializeField] private float[] timeMeterValue;
     
+    [Header("Adjust Duration")]
+    [Range(0,1)][SerializeField] private float durationAdjustment = 1f;
+    
     private Coroutine _meterCoroutine;
     
 #if UNITY_EDITOR
@@ -80,24 +83,24 @@ public class ClockManager : MonoBehaviour
         weekDayText.text = weekDay.ToString();
     }
 
-    private void OnUpdatePeriodMeter(DayPeriod dayPeriod)
+    private void OnUpdatePeriodMeter(DayPeriod dayPeriod, float duration)
     {
         if (_meterCoroutine != null) return;
 
-        _meterCoroutine = StartCoroutine(UpdatePeriodMeter(dayPeriod));
+        _meterCoroutine = StartCoroutine(UpdatePeriodMeter(dayPeriod, duration));
     }
 
-    private IEnumerator UpdatePeriodMeter(DayPeriod dayPeriod)
+    private IEnumerator UpdatePeriodMeter(DayPeriod dayPeriod, float duration)
     {
-        float duration = TimeManager.Instance.GetTransitionDuration() * 0.8f;
+        float transitionDuration = duration * durationAdjustment;
         float startValue = periodMeter.fillAmount;
         float endValue = timeMeterValue[(int)dayPeriod];
         float timer = 0f;
 
-        while (timer < duration)
+        while (timer < transitionDuration)
         {
             timer += Time.deltaTime;
-            float elapsedTime = timer / duration;
+            float elapsedTime = timer / transitionDuration;
             
             periodMeter.fillAmount = Mathf.Lerp(startValue, endValue, elapsedTime);
             

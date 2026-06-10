@@ -14,6 +14,9 @@ public class BackgroundManager : MonoBehaviour
     [SerializeField] private Color32 afternoonColorSky;
     [SerializeField] private Color32 eveningColorSky;
     
+    [Header("Adjust Duration")]
+    [Range(0,1)][SerializeField] private float durationAdjustment = 1f;
+    
     private Coroutine _backgroundCoroutine;
 
 #if UNITY_EDITOR
@@ -47,26 +50,26 @@ public class BackgroundManager : MonoBehaviour
         TimeManager.Instance.OnTimeChanged -= OnTimeChanged;
     }
 
-    private void OnTimeChanged(DayPeriod dayPeriod)
+    private void OnTimeChanged(DayPeriod dayPeriod, float duration)
     {  
         if(_backgroundCoroutine != null) return;
 
-       _backgroundCoroutine = StartCoroutine(TimeChange(dayPeriod));
+       _backgroundCoroutine = StartCoroutine(TimeChange(dayPeriod, duration));
     }
 
-    private IEnumerator TimeChange(DayPeriod dayPeriod)
+    private IEnumerator TimeChange(DayPeriod dayPeriod, float duration)
     {
-        float duration = TimeManager.Instance.GetTransitionDuration() * 0.8f;
+        float transitionDuration = duration * durationAdjustment;
         Color startColor = Color.white;
         Color endColor = Color.clear;
         
         Color backgroundStartColor = background[0].color;
         float timer = 0;
 
-        while (timer < duration)
+        while (timer < transitionDuration)
         {
             timer += Time.deltaTime;
-            float elapsedTime = timer / duration;
+            float elapsedTime = timer / transitionDuration;
             
             switch (dayPeriod)
             {

@@ -1383,6 +1383,7 @@ MonoBehaviour:
   currentSkyPeriod: {fileID: 11400000, guid: 81d88d9cde480a5418dca520911ccdd8, type: 2}
   skyLight: {fileID: 2145154428}
   timeTransitionDuration: 0.5
+  timeTransitionSpeedAmplify: 0.2
   cyclePeriods:
   - {fileID: 11400000, guid: 81d88d9cde480a5418dca520911ccdd8, type: 2}
   - {fileID: 11400000, guid: d9ea19652cdf2674c8f3952dfbe4dd6f, type: 2}
@@ -1432,6 +1433,7 @@ MonoBehaviour:
   eveningColorSky:
     serializedVersion: 2
     rgba: 4281805355
+  durationAdjustment: 1
 --- !u!1 &829799505
 GameObject:
   m_ObjectHideFlags: 0
@@ -2485,6 +2487,7 @@ MonoBehaviour:
   - 0.33
   - 0.66
   - 1
+  durationAdjustment: 1
 --- !u!1 &1614753032
 GameObject:
   m_ObjectHideFlags: 0
