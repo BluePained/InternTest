@@ -2,4 +2,10 @@ Planning: Start 07:06 PM
 Project Setup + Simple player movement: End 8:23 PM. (1 Hours)
 
 Time Hop System: Start 8:56 PM. (6/09/26)
-- Time Hop system: End 9.25 PM.(6/10/26) (~7.24 Hours/Total: ~24.3 Hours)
+- Time Hop system: End 9:25 PM.(6/10/26) (~7.24 Hours/Total: ~24.3 Hours)
+
+Inventory System: Start 11:02 PM. (6/10/26)
+- Basic Inventory System + UI: End 12:24 PM.(6/11/26) (~6 Hours/Total ~15 Hours)
+- Inventory Sorting/Remove: End 10:53 PM. (6/11/26) (~4 Hours/Total ~23 Hours)
+  *Current System total work hours (~10 Hours)*
+- Inventory Item Merge: Unfinsihed 
