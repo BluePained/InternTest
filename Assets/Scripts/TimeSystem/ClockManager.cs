@@ -1,9 +1,12 @@
 using System;
 using System.Collections;
 using TMPro;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class ClockManager : MonoBehaviour
 {
