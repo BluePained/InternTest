@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: 79a564e35469ef94b95138e3415e2f26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2399433566118881885
+    second: StarTest_0
+  - first:
+      213: -5179746303215576961
+    second: StarTest_1
+  - first:
+      213: 8308197371108976339
+    second: StarTest_2
+  - first:
+      213: -4486115750454046447
+    second: StarTest_3
+  - first:
+      213: 6710671292957594215
+    second: StarTest_4
+  - first:
+      213: -4972799461933187485
+    second: StarTest_5
+  - first:
+      213: -1271203204175485662
+    second: StarTest_6
+  - first:
+      213: -8757535913402425792
+    second: StarTest_7
+  - first:
+      213: 1078423956502479487
+    second: StarTest_8
+  - first:
+      213: 2932818583168709023
+    second: StarTest_9
+  - first:
+      213: 2604377666687095261
+    second: StarTest_10
+  - first:
+      213: 6541520781455942468
+    second: StarTest_11
+  - first:
+      213: 4089759995199153099
+    second: StarTest_12
+  - first:
+      213: 6200578289378041702
+    second: StarTest_13
+  - first:
+      213: -3222230465069045994
+    second: StarTest_14
+  - first:
+      213: 610957318528708518
+    second: StarTest_15
+  - first:
+      213: -8670276226439666341
+    second: StarTest_16
+  - first:
+      213: 1394314102126536533
+    second: StarTest_17
+  - first:
+      213: -2307333935846256680
+    second: StarTest_18
+  - first:
+      213: 6479312507536042461
+    second: StarTest_19
+  - first:
+      213: -3215193318135975772
+    second: StarTest_20
+  - first:
+      213: 2555528650069125133
+    second: StarTest_21
+  - first:
+      213: -2858578441251207122
+    second: StarTest_22
+  - first:
+      213: 5479976439740390629
+    second: StarTest_23
+  - first:
+      213: -8440904232032442396
+    second: StarTest_24
+  - first:
+      213: -2758805597812428564
+    second: StarTest_25
+  - first:
+      213: -3130171187511107065
+    second: StarTest_26
+  - first:
+      213: -6930458949360853041
+    second: StarTest_27
+  - first:
+      213: 1363404284252932518
+    second: StarTest_28
+  - first:
+      213: -4910057406473168393
+    second: StarTest_29
+  - first:
+      213: 2519858184390702322
+    second: StarTest_30
+  - first:
+      213: -5111882367210069685
+    second: StarTest_31
+  - first:
+      213: 1221814854639679681
+    second: StarTest_32
+  - first:
+      213: 5285254306208152112
+    second: StarTest_33
+  - first:
+      213: -8012922027163481865
+    second: StarTest_34
+  - first:
+      213: -1638268033861147248
+    second: StarTest_35
+  - first:
+      213: 8532980747905629792
+    second: StarTest_36
+  - first:
+      213: -1669329838712905741
+    second: StarTest_37
+  - first:
+      213: -8305228980142875645
+    second: StarTest_38
+  - first:
+      213: -174272369315895079
+    second: StarTest_39
+  - first:
+      213: 986799264145488627
+    second: StarTest_40
+  - first:
+      213: 5622020837612431585
+    second: StarTest_41
+  - first:
+      213: 3046005719225307445
+    second: StarTest_42
+  - first:
+      213: 8735618261456825638
+    second: StarTest_43
+  - first:
+      213: 2098347690955267602
+    second: StarTest_44
+  - first:
+      213: -2281023127300258024
+    second: StarTest_45
+  - first:
+      213: 6169259434588296867
+    second: StarTest_46
+  - first:
+      213: 5178129536252157032
+    second: StarTest_47
+  - first:
+      213: -5071055684915366502
+    second: StarTest_48
+  - first:
+      213: -8304176497505107808
+    second: StarTest_49
+  - first:
+      213: -2621092137319965931
+    second: StarTest_50
+  - first:
+      213: -4016777822236095870
+    second: StarTest_51
+  - first:
+      213: -7529445263231960105
+    second: StarTest_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StarTest_0
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 1066
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a2aaa9d108c4120800000000000000
+      internalID: 2399433566118881885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_1
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1070
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7851324e28dd18b0800000000000000
+      internalID: -5179746303215576961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_2
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1060
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6e8c48d75ac4370800000000000000
+      internalID: 8308197371108976339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_3
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 852
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111d6e05e7d1eb1c0800000000000000
+      internalID: -4486115750454046447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_4
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 959
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762162d7cf7112d50800000000000000
+      internalID: 6710671292957594215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_5
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 937
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ef7348c311dfab0800000000000000
+      internalID: -4972799461933187485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_6
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 888
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22528c1cb67cb5ee0800000000000000
+      internalID: -1271203204175485662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_7
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 928
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e1ce57c7bf67680800000000000000
+      internalID: -8757535913402425792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_8
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 899
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f720a9cefd457fe00800000000000000
+      internalID: 1078423956502479487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_9
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 912
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f917f6076f673b820800000000000000
+      internalID: 2932818583168709023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_10
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 909
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd158d370bb942420800000000000000
+      internalID: 2604377666687095261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_11
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 912
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44364850e7628ca50800000000000000
+      internalID: 6541520781455942468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_12
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 909
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3e2721c0fb1c830800000000000000
+      internalID: 4089759995199153099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_13
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 898
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f90642a11ec0650800000000000000
+      internalID: 6200578289378041702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_14
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 893
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6172e11d6765843d0800000000000000
+      internalID: -3222230465069045994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_15
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 877
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af24d7b17e8a7800800000000000000
+      internalID: 610957318528708518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_16
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 875
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55ac8a85bdfca780800000000000000
+      internalID: -8670276226439666341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_17
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 878
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557e19ad949995310800000000000000
+      internalID: 1394314102126536533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_18
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 800
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df0ea79204baffd0800000000000000
+      internalID: -2307333935846256680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_19
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 865
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd96e6095642be950800000000000000
+      internalID: 6479312507536042461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_20
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 854
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0bb4446b65163d0800000000000000
+      internalID: -3215193318135975772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_21
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 835
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0824b874cf077320800000000000000
+      internalID: 2555528650069125133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_22
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 826
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28c1a69d0a4458d0800000000000000
+      internalID: -2858578441251207122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_23
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 829
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec5c3ca989cc0c40800000000000000
+      internalID: 5479976439740390629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_24
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 816
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e76d92a252ebda80800000000000000
+      internalID: -8440904232032442396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_25
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 822
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0f702fce0c6b9d0800000000000000
+      internalID: -2758805597812428564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_26
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 803
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702ec3aa3e56f84d0800000000000000
+      internalID: -3130171187511107065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_27
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 794
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf5be00e4012df90800000000000000
+      internalID: -6930458949360853041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_28
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 798
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9442019f8cbe210800000000000000
+      internalID: 1363404284252932518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_29
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 762
+        width: 89
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9146cadc8fbdbb0800000000000000
+      internalID: -4910057406473168393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_30
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 777
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4f7fcfaa558f220800000000000000
+      internalID: 2519858184390702322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_31
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 776
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b416cd82212fe09b0800000000000000
+      internalID: -5111882367210069685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 734
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8f7180322c4f010800000000000000
+      internalID: 1221814854639679681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_33
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 740
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03af32df9cef85940800000000000000
+      internalID: 5285254306208152112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_34
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 740
+        width: 97
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8840eded16cc090800000000000000
+      internalID: -8012922027163481865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_35
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 712
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09524d237e3b349e0800000000000000
+      internalID: -1638268033861147248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_36
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 716
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e7922d7cc3b6670800000000000000
+      internalID: 8532980747905629792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_37
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 716
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff9e8e2b5955d8e0800000000000000
+      internalID: -1669329838712905741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_38
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 709
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cdd4cde36edbc80800000000000000
+      internalID: -8305228980142875645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_39
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 696
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8a2c4143cd49df0800000000000000
+      internalID: -174272369315895079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_40
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 675
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa3204d3b0d1bd00800000000000000
+      internalID: 986799264145488627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_41
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 662
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8abb14a2e650e40800000000000000
+      internalID: 5622020837612431585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_42
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 658
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5319b3e2016954a20800000000000000
+      internalID: 3046005719225307445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_43
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 654
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dac8786862b3970800000000000000
+      internalID: 8735618261456825638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_44
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 618
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e56ae7b14de1d10800000000000000
+      internalID: 2098347690955267602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_45
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 502
+        width: 102
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81741d41d8d2850e0800000000000000
+      internalID: -2281023127300258024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_46
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 559
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6dcd505cc9d9550800000000000000
+      internalID: 6169259434588296867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_47
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 561
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c9449d0696cd740800000000000000
+      internalID: 5178129536252157032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_48
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 547
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95f460e8bdff99b0800000000000000
+      internalID: -5071055684915366502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_49
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 471
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a08f021973a1cc80800000000000000
+      internalID: -8304176497505107808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_50
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 457
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b5977969200abd0800000000000000
+      internalID: -2621092137319965931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_51
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 423
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a43fb3ad98148c0800000000000000
+      internalID: -4016777822236095870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarTest_52
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 384
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbbf410d69028790800000000000000
+      internalID: -7529445263231960105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      StarTest_0: 2399433566118881885
+      StarTest_1: -5179746303215576961
+      StarTest_10: 2604377666687095261
+      StarTest_11: 6541520781455942468
+      StarTest_12: 4089759995199153099
+      StarTest_13: 6200578289378041702
+      StarTest_14: -3222230465069045994
+      StarTest_15: 610957318528708518
+      StarTest_16: -8670276226439666341
+      StarTest_17: 1394314102126536533
+      StarTest_18: -2307333935846256680
+      StarTest_19: 6479312507536042461
+      StarTest_2: 8308197371108976339
+      StarTest_20: -3215193318135975772
+      StarTest_21: 2555528650069125133
+      StarTest_22: -2858578441251207122
+      StarTest_23: 5479976439740390629
+      StarTest_24: -8440904232032442396
+      StarTest_25: -2758805597812428564
+      StarTest_26: -3130171187511107065
+      StarTest_27: -6930458949360853041
+      StarTest_28: 1363404284252932518
+      StarTest_29: -4910057406473168393
+      StarTest_3: -4486115750454046447
+      StarTest_30: 2519858184390702322
+      StarTest_31: -5111882367210069685
+      StarTest_32: 1221814854639679681
+      StarTest_33: 5285254306208152112
+      StarTest_34: -8012922027163481865
+      StarTest_35: -1638268033861147248
+      StarTest_36: 8532980747905629792
+      StarTest_37: -1669329838712905741
+      StarTest_38: -8305228980142875645
+      StarTest_39: -174272369315895079
+      StarTest_4: 6710671292957594215
+      StarTest_40: 986799264145488627
+      StarTest_41: 5622020837612431585
+      StarTest_42: 3046005719225307445
+      StarTest_43: 8735618261456825638
+      StarTest_44: 2098347690955267602
+      StarTest_45: -2281023127300258024
+      StarTest_46: 6169259434588296867
+      StarTest_47: 5178129536252157032
+      StarTest_48: -5071055684915366502
+      StarTest_49: -8304176497505107808
+      StarTest_5: -4972799461933187485
+      StarTest_50: -2621092137319965931
+      StarTest_51: -4016777822236095870
+      StarTest_52: -7529445263231960105
+      StarTest_6: -1271203204175485662
+      StarTest_7: -8757535913402425792
+      StarTest_8: 1078423956502479487
+      StarTest_9: 2932818583168709023
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
