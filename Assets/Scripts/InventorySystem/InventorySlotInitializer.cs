@@ -6,25 +6,12 @@ using UnityEngine.UI;
 using UnityEditor;
 #endif
 
-[Serializable]
-public class Slot
+public class InventorySlotInitializer : MonoBehaviour
 {
-    [field: SerializeField] public GameObject SlotObj { get; private set; }
-
-    public void AssignSlot(GameObject obj)
-    {
-        SlotObj = obj;
-    }
-    
-}
-
-public class InventoryBarInitializer : MonoBehaviour
-{
-    [ContextMenuItem("Update Bar Size", "UpdateInventoryBarSize")]
-    [Range(0, 10)][SerializeField] private int inventorySize;
+    [SerializeField] private int inventorySize;
     [SerializeField] private GameObject slotPrefab;
     [SerializeField] private RectTransform bar;
-    [SerializeField] private Slot[] slots;
+    [SerializeField] private GameObject[] slots;
 
 #if  UNITY_EDITOR
 
@@ -35,21 +22,18 @@ public class InventoryBarInitializer : MonoBehaviour
         EditorApplication.delayCall += UpdateInventoryBarSize;
     }
 
-    [ContextMenu("Update Bar Size")]
     private void UpdateInventoryBarSize()
     {
-        if (Application.isPlaying || slotPrefab == null || bar == null) return;
-        
-        if(inventorySize == slots.Length) return;
+        if(inventorySize == slots.Length || inventorySize < 0) return;
         
         if(inventorySize == 0 && slots.Length > 0)
         {
             foreach (var t in slots)
             {
-                if(t.SlotObj != null)
-                    DestroyImmediate(t.SlotObj);
+                if(t != null)
+                    DestroyImmediate(t);
             }
-            slots = Array.Empty<Slot>();
+            slots = Array.Empty<GameObject>();
             return;
         }
         
@@ -64,7 +48,7 @@ public class InventoryBarInitializer : MonoBehaviour
 
                 for (int i = currentSize; i < inventorySize; i++)
                 {
-                    slots[i] = new Slot();
+                    slots[i] = new GameObject();
                     
                     GameObject obj = PrefabUtility.InstantiatePrefab(slotPrefab, bar) as GameObject;
 
@@ -73,8 +57,8 @@ public class InventoryBarInitializer : MonoBehaviour
                         print("Can't Find the prefab'");
                         return;
                     }
-                    
-                    slots[i].AssignSlot(obj);
+
+                    slots[i] = obj;
                 }
                 
                 break;
@@ -82,7 +66,7 @@ public class InventoryBarInitializer : MonoBehaviour
             {
                 for (int i = inventorySize; i < slots.Length; i++)
                 {
-                    DestroyImmediate(slots[i].SlotObj);
+                    DestroyImmediate(slots[i]);
                 }
                 
                 Array.Resize(ref slots, inventorySize);
