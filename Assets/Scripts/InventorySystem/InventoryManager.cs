@@ -157,7 +157,10 @@ public class InventoryManager : MonoBehaviour
         switch (removeType)
         {
             case RemoveType.Throw:
+                if (amount == -1)
+                    amount = inventorySlots[index].Amount;
                 ItemSpawner.Instance.SpawnItem(slot.ItemData, amount, ItemSpawner.Instance.GetPlayerSpawnOffset());
+                
                 slot.RemoveItem(amount);
                 break;
             case RemoveType.Discard:
