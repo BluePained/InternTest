@@ -5,6 +5,7 @@ Time Hop System: Start 8:56 PM. (6/09/26)
 - Time Hop system: End 9:25 PM.(6/10/26) (~7.24 Hours/Total: ~24.3 Hours)
 
 Inventory System: Start 11:02 PM. (6/10/26)
-- Inventory Bar Initializer: End 3:23 PM. (6/10/26) (~4 Hours)
 - Basic Inventory System + UI: End 12:24 PM.(6/11/26) (~6 Hours/Total ~15 Hours)
-- Inventory Polishing: 
+- Inventory Sorting/Remove: End 10:53 PM. (6/11/26) (~4 Hours/Total ~20 Hours)
+  *Current System total work hours (~10 Hours)*
+- Inventory Item Merge: Unfinsihed 
