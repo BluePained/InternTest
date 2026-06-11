@@ -13,6 +13,22 @@ public class ItemInfo : MonoBehaviour
         }
     }
 
+    public void OnItemSpawn(Item item, int amount)
+    {
+        ItemData = item;
+        CurrentAmount = amount;
+
+        if (CurrentAmount < 0)
+        {
+            CurrentAmount = ItemData.StackSize;
+        }
+
+        if (CurrentAmount == 0)
+        {
+            CurrentAmount = 1;
+        }
+    }
+    
     public void OnItemAdded()
     {
         int amount = InventoryManager.Instance.AddItemToInventory(this);

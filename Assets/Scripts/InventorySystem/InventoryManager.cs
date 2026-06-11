@@ -3,6 +3,14 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+public enum RemoveType
+{
+    Throw,
+    Discard,
+    Crafting,
+    Used
+}
+
 [Serializable]
 public class InventorySlot
 {
@@ -22,9 +30,10 @@ public class InventorySlot
 
     public void RemoveItem(int amount)
     {
-        amount -= Amount;
+        Amount -= amount;
 
-        if (amount <= 0)
+        //Remove all if -1
+        if (Amount <= 0 || amount == -1)
         {
             Amount = 0;
             ItemData = null;
@@ -140,6 +149,45 @@ public class InventoryManager : MonoBehaviour
             OnInventorySlotUpdate?.Invoke(inventorySlots);
 
         return amountToAdd;
+    }
+
+    public void RemoveItemFromInventory(int index, int amount, RemoveType removeType)
+    {
+        var slot = inventorySlots[index];
+        switch (removeType)
+        {
+            case RemoveType.Throw:
+                ItemSpawner.Instance.SpawnItem(slot.ItemData, amount, ItemSpawner.Instance.GetPlayerSpawnOffset());
+                slot.RemoveItem(amount);
+                break;
+            case RemoveType.Discard:
+                slot.RemoveItem(amount);
+                break;
+            case RemoveType.Crafting:
+                break;
+            case RemoveType.Used:
+                break;
+            default:
+                break;
+        }
+        
+        OnInventorySlotUpdate?.Invoke(inventorySlots);
+    }
+
+    public void SortInventory(InventorySlot[] slot)
+    {
+        inventorySlots = slot;
+        OnInventorySlotUpdate?.Invoke(inventorySlots);
+    }
+
+    public InventorySlot[] GetInventorySlots()
+    {
+        return inventorySlots;
+    }
+
+    public bool IndexExistInInventory(int index)
+    {
+        return inventorySlots[index].ItemData != null;
     }
     
     #region Reset Scene

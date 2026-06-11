@@ -9,6 +9,7 @@ TagManager:
   - Background
   - ExtraBackgroundNight
   - ExtraBackgroundDay
+  - DragItem
   layers:
   - Default
   - TransparentFX
