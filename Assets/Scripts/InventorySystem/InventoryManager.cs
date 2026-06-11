@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [Serializable]
 public class InventorySlot
@@ -18,6 +19,17 @@ public class InventorySlot
         ItemData = item;
         Amount = amount;
     }
+
+    public void RemoveItem(int amount)
+    {
+        amount -= Amount;
+
+        if (amount <= 0)
+        {
+            Amount = 0;
+            ItemData = null;
+        }
+    }
     
 }
 
@@ -25,6 +37,8 @@ public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
     [SerializeField] private InventorySlot[] inventorySlots;
+    
+    public event Action<InventorySlot[]> OnInventorySlotUpdate;
     
     private void Awake()
     {
@@ -38,6 +52,21 @@ public class InventoryManager : MonoBehaviour
             DontDestroyOnLoad(this.gameObject);
         }
     }
+    
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnResetScene;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnResetScene;
+    }
+
+    public void NotifyUi()
+    {
+        OnInventorySlotUpdate?.Invoke(inventorySlots);
+    }
 
     public int AddItemToInventory(ItemInfo itemData)
     {
@@ -47,6 +76,8 @@ public class InventoryManager : MonoBehaviour
         
         if (itemData.ItemData == null) return -1;
         if (itemData.CurrentAmount <= 0) return -1;
+
+        bool isInventoryChanged = false;
         
         int amountToAdd = itemData.CurrentAmount;
         int stackSize =  itemData.ItemData.StackSize;
@@ -70,17 +101,23 @@ public class InventoryManager : MonoBehaviour
             if (amountToAdd <= remainingSlot)
             {
                 slot.AddExistItem(amountToAdd);
-                return 0;
+                isInventoryChanged = true;
+                amountToAdd = 0;
+                break;
             }
             
             //But if it's not
             slot.AddExistItem(remainingSlot);
             amountToAdd -= remainingSlot;
+            isInventoryChanged = true;
         }
         
         //if Item doesn't exist or still remain from above
         foreach (var slot in inventorySlots)
         {
+            if (amountToAdd <= 0)
+                break;
+            
             //If slot isn't empty
             if (slot.ItemData != null)
                 continue;
@@ -89,15 +126,29 @@ public class InventoryManager : MonoBehaviour
             if (amountToAdd <= stackSize)
             {
                 slot.AddItem(itemData.ItemData, amountToAdd);
-                return 0;
+                isInventoryChanged = true;
+                amountToAdd = 0;
+                break;
             }
             
             slot.AddItem(itemData.ItemData, stackSize);
             amountToAdd -= stackSize;
+            isInventoryChanged = true;
         }
         
-        //Inventory Full
+        if(isInventoryChanged)
+            OnInventorySlotUpdate?.Invoke(inventorySlots);
+
         return amountToAdd;
     }
+    
+    #region Reset Scene
+
+    private void OnResetScene(Scene scene, LoadSceneMode mode)
+    {
+        
+    }
+
+    #endregion
     
 }

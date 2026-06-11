@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class TestScript : MonoBehaviour
 {
@@ -23,6 +24,11 @@ public class TestScript : MonoBehaviour
         if (Keyboard.current.vKey.wasPressedThisFrame)
         {
             TimeManager.Instance.ChangeTimePeriodByDay(day, dayPeriod);
+        }
+        
+        if (Keyboard.current.rKey.wasPressedThisFrame)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

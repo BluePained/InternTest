@@ -16,5 +16,4 @@ MonoBehaviour:
   <OnUseIcon>k__BackingField: {fileID: 0}
   <Name>k__BackingField: Log
   <Description>k__BackingField: A log.
-  <IsStackable>k__BackingField: 1
-  <StackSize>k__BackingField: 10
+  <StackSize>k__BackingField: 6

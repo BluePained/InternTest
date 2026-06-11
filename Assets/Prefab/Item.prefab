@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4530716030520830605}
   - component: {fileID: 7656974101513825631}
   - component: {fileID: 5754417721125923960}
+  - component: {fileID: 4760872102100100889}
   - component: {fileID: 4860840967860776762}
   m_Layer: 0
   m_Name: Item
@@ -61,6 +62,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9df19d16673bfc47bd7656574d50ed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemSprite
+--- !u!114 &4760872102100100889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372485293129873216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d45be1282dbce4eb583f07a4aeb698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PickableObject
+  <InteractableCollider>k__BackingField: {fileID: 0}
 --- !u!61 &4860840967860776762
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -186,7 +200,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 150485006, guid: a636f766a3a1c794686f9f841ca7735e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
